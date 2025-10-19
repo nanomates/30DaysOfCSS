@@ -11,7 +11,7 @@ button {
   border: none;
   box-shadow: 0 2px 6px #616161;
   background: #646262;
-  border-top-left-radius: 4px;
+  border-top-left-radius: 5px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 20px;
@@ -22,9 +22,9 @@ button {
 div:hover button::after {
   z-index: -1;
   content: "";
-  width: 320px;
+  width: 4000px;
   height: 20px;
-  background: linear-gradient(#F34423, #A12A13);
+  background: linear-gradient(#F34423, #00f7ff);
   box-shadow: 7px 5px 10px #651708;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
