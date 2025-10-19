@@ -9,15 +9,15 @@ body {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(0, #120c56, #000000);
+  background: linear-gradient(0, #120c56, #970000);
   overflow: hidden;
 }
 
 .brilho {
   position: relative;
-  min-width: 750px;
-  height: 750;
-  margin: -150px;
+  min-width: 1000px;
+  height: 1000;
+  margin: -200px;
   transform-origin: right;
   animation: changingColor 5s linear infinite;
 }
